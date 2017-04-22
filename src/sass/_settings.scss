@@ -1,0 +1,16 @@
+/*@import variables and mixins*/
+
+/*colors*/
+$accent: #7fbd42;
+$myDark: #181b1f;
+$myGray: #585b5f;
+$myLight: #c0c6cc;
+
+
+
+.container{
+	max-width: 1170px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
