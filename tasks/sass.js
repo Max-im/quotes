@@ -4,7 +4,6 @@
 const gulp 			= require('gulp');
 const sass 			= require('gulp-sass');
 const browserSync 	= require('browser-sync');
-const concat 		= require('gulp-concat');
 const cssnano 		= require('gulp-cssnano');
 const rename 		= require('gulp-rename');
 const uncss 		= require('gulp-uncss');

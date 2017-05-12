@@ -3,10 +3,10 @@ const $ = require('jquery');
 module.exports = function(selector) {
 	
 
-	console.log($);
+	console.log(selector);
 	
-	console.log('test-1000000');
+	console.log('test5');
 	
 
-	let b = "lorem";
+	let a = 49;
 };
