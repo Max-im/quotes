@@ -2,7 +2,8 @@
 
 const gulp          = require('gulp');
 const browserSync   = require('browser-sync');
-
+const uglify        = require('gulp-uglifyjs');
+const htmlMin       = require('gulp-htmlmin');
 
 
 
@@ -16,6 +17,31 @@ const browserSync   = require('browser-sync');
  }
 
 
+function myBuild() {
+
+  // FONTS
+  const buildFonts = gulp.src('src/fonts/**/*') 
+  .pipe(gulp.dest('dist/fonts'))
+
+  // CSS
+  const buildCss = gulp.src([ 'src/css/**/*.css'])
+  .pipe(gulp.dest('dist/css'))
+
+  // JavaScript
+  const buildJs = gulp.src('src/js/**/*.js')
+  .pipe(gulp.dest('dist/js'))
+
+  // HTML
+  const buildHtml = gulp.src('src/*.html')
+  .pipe(htmlMin({collapseWhitespace: true}))
+  .pipe(gulp.dest('dist'));
+
+  // JSON
+  const buildJSON = gulp.src('src/json/**/*.json')
+  .pipe(uglify())
+  .pipe(gulp.dest('dist/json'));
+
+}
 
 
 // -----------------------------------------------------------------------
@@ -52,16 +78,14 @@ lazyRequireTask('js', './tasks/js', { src: './src/es6/app.js' });
 // spritesmith
 // -----------------------------------------------------------------------
 lazyRequireTask('sprite:png', './tasks/sprite', { src: 'src/img/_sprite/*.png' });
-// gulp.task('sprite:png', function(){
-//   var spriteData = gulp.src('src/img/_sprite/*.png')
-//     .pipe(spritesmith({
-//       imgName: 'spriteImg.png',
-//       cssName: 'spriteStyle.scss',
-//       algorithm: 'binary-tree'
-//     }));
-//   spriteData.img.pipe(gulp.dest('src/_sprite')); // sprite dest
-//   spriteData.css.pipe(gulp.dest('src/_sprite')); // styles dest
-// });
+
+
+
+
+// -----------------------------------------------------------------------
+// sprite:svg
+// -----------------------------------------------------------------------
+lazyRequireTask('sprite:svg', './tasks/sprite:svg', { src: 'assets/sprite:svg/**/*.svg' });
 
 
 
@@ -69,11 +93,17 @@ lazyRequireTask('sprite:png', './tasks/sprite', { src: 'src/img/_sprite/*.png' }
 // -----------------------------------------------------------------------
 // W A T C H
 // -----------------------------------------------------------------------
-gulp.task('watch', ['browser-sync', 'sass', 'js' ], function() {
+gulp.task('watch', ['browser-sync', 'sprite:svg', 'sass', 'js' ], function() {
   gulp.watch('src/sass/**/*.scss', ['sass', browserSync.reload]);
   gulp.watch('src/*.html', browserSync.reload);
   gulp.watch('src/es6/**/*.js', ['js', browserSync.reload]);
+  gulp.watch('assets/sprite:svg/**/*.svg', ['sprite:svg', 'sass', browserSync.reload]);
 });
+
+
+
+
+
 
 
 
@@ -96,7 +126,7 @@ lazyRequireTask('clean', './tasks/clean' );
 // -----------------------------------------------------------------------
 // img optimisation
 // -----------------------------------------------------------------------
-lazyRequireTask('img', './tasks/img', { src: 'src/img/**/*' });
+lazyRequireTask('img', './tasks/img', { src: 'src/img/**/*.*' });
 
 
 
@@ -111,30 +141,12 @@ lazyRequireTask('clear', './tasks/clear');
 
 // B U I L D
 // =======================================================================
-gulp.task('build', ['clean', 'img', 'sass' ,'js'], function() {
+lazyRequireTask('clear', './tasks/clear');
 
-  // FONTS
-  let buildFonts = gulp.src('src/fonts/**/*') 
-  .pipe(gulp.dest('dist/fonts'))
 
-  // CSS
-  let buildCss = gulp.src([ 'src/css/**/*.css'])
-  .pipe(gulp.dest('dist/css'))
 
-  // JavaScript
-  let buildJs = gulp.src('src/js/**/*.js')
-  .pipe(gulp.dest('dist/js'))
-
-  // HTML
-  let buildHtml = gulp.src('src/*.html')
-  .pipe(gulp.dest('dist'));
-
-  // JSON
-  let buildJSON = gulp.src('src/json/**/*.json')
-  .pipe(uglify())
-  .pipe(gulp.dest('dist/json'));
-
-});
+gulp.task('build', ['clean', 'img', 'sass' ,'js'], myBuild());
+// gulp.task('build',  );
 
 
 

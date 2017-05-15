@@ -2,6 +2,7 @@ STRUCTURE:
 --------------------------------------------------
 * src  - development;
 * dist - production;
+* assets - source files
 
 
 INFO:
