@@ -6,7 +6,7 @@ const sass 			= require('gulp-sass');
 const browserSync 	= require('browser-sync');
 const cssnano 		= require('gulp-cssnano');
 const rename 		= require('gulp-rename');
-const uncss 		= require('gulp-uncss');
+
 const debug 		= require('gulp-debug');
 const sourcemaps	= require('gulp-sourcemaps');
 const multipipe		= require('multipipe');
@@ -22,9 +22,6 @@ module.exports = function(options){
 			gulp.src(options.src),
 			sourcemaps.init(),	
 			sass(),
-			uncss({
-		        html: ['src/index.html']
-		    }),
 			autoprefixer([
 				'Android 2.3',
 	  			'Android >= 4',

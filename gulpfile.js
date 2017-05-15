@@ -4,6 +4,7 @@ const gulp          = require('gulp');
 const browserSync   = require('browser-sync');
 const uglify        = require('gulp-uglifyjs');
 const htmlMin       = require('gulp-htmlmin');
+const uncss         = require('gulp-uncss');
 
 
 
@@ -25,6 +26,9 @@ function myBuild() {
 
   // CSS
   const buildCss = gulp.src([ 'src/css/**/*.css'])
+  .pipe(uncss({
+    html: ['src/index.html']
+  }))
   .pipe(gulp.dest('dist/css'))
 
   // JavaScript
