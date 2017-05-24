@@ -149,7 +149,7 @@ lazyRequireTask('clear', './tasks/clear');
 
 
 
-gulp.task('build', ['clean', 'img', 'sass' ,'js'], myBuild());
+gulp.task('build', ['clean', 'img', 'sass' ,'js'], myBuild);
 // gulp.task('build',  );
 
 

@@ -2,6 +2,20 @@ const header 	= require('./header.es6.js');
 const main		= require('./main.es6.js');
 
 
-header('application');
+// jQuery
+const jQuery = require('jquery');
+window.$ = window.jQuery = jQuery;
 
-main();
+// owl-carousel
+// require('../../node_modules/owlcarousel/owl-carousel/owl.carousel.min.js');
+
+
+// React
+const React 	= require('react');
+const ReactDOM 	= require('react-dom');
+
+
+
+main(React, ReactDOM);
+
+header(jQuery);

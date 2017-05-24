@@ -18,7 +18,7 @@ module.exports = function(options){
 
 		 return browserify(options.src)
        	.transform("babelify", {
-    		presets: ["es2015"],
+    		presets: ["es2015", "react"],
     		sourceMaps: true
     	})
     	.bundle()

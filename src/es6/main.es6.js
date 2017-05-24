@@ -1,12 +1,24 @@
-const $ = require('jquery');
-
-module.exports = function(selector) {
+module.exports = function(React, ReactDOM) {
 	
 
-	console.log($);
-	
-	console.log('test-1000000');
-	
+	const Component = React.createClass({
+		render: function () {
+			return (
+				<div>
+					<h1 className="header">Hello world</h1>
+					<p>lorem</p>
+				</div>
 
-	let b = "lorem";
+			);
+		}
+	});
+
+
+
+	ReactDOM.render(
+		<Component />, 
+		document.getElementById('app')
+	);
+
+
 };

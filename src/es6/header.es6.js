@@ -1,12 +1,5 @@
-const $ = require('jquery');
-
-module.exports = function(selector) {
+module.exports = function($) {
 	
 
-	console.log(selector);
 	
-	console.log('test5');
-	
-
-	let a = 49;
 };

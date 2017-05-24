@@ -23,8 +23,8 @@ USED:
 * CSS3;
 * SASS (SCSS);
 * ES6 (babel);
+* React;
 * jQuery;
-* OwlCarousel;
 
 
 SCHEDULE:
