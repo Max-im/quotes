@@ -39,12 +39,13 @@
     "gulp.spritesmith": "^6.2.1",
     "imagemin-pngquant": "^4.2.2",
     "multipipe": "^1.0.2",
-    "react": "^15.5.4",
-    "react-bootstrap": "^0.31.0",
-    "react-dom": "^15.5.4",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4"
   }
 }
