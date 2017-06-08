@@ -16,6 +16,6 @@ const ReactDOM 	= require('react-dom');
 
 
 
-main(React, ReactDOM);
+main(React, ReactDOM, React.Component);
 
 header(jQuery);

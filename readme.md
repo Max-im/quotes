@@ -1,22 +1,36 @@
-STRUCTURE:
+# PROJECT
+
+
+
+## STRUCTURE
+
 --------------------------------------------------
 * src  - development;
 * dist - production;
 * assets - source files
 
 
-INFO:
---------------------------------------------------
-* name        : _________________;
-* description : _________________;
-* version     : 1.0.0;
-* author      : Pozhidaev Maxim;
+## INFO
 
 
-USED:
 --------------------------------------------------
 
-* NPM;
+| Name          | Value         | 
+| ------------- | -------------:| 
+| Project name  |               |
+| Description   |               |
+| Version       | 1.0.0         |
+| Author        | [Pozhidaev Maxim][myPage] |
+
+
+
+
+## USED
+
+
+--------------------------------------------------
+
+* NPM !(npm)[src/img/_used/npm.png];
 * GULP;
 * HTML5;
 * BEM;
@@ -27,16 +41,23 @@ USED:
 * jQuery;
 
 
-SCHEDULE:
+## SCHEDULE
+
+
 --------------------------------------------------
 
-1. deploy the environment 	- __ hours;
-2. header 					- __ hours;
-3. main 					- __ hours;
-4. footer 					- __ hours;
-5. optimisation				- __ hours;
 
-total time: __ hours;
+| # | Name                    | Hours         | 
+|---| ----------------------- | -------------:| 
+| 1 | Deploy the environment  |               |
+| 1 | Header                  |               |
+| 1 | Main                    |               |
+| 1 | Footer                  |               |
+| 1 | Optimisation            |               |
+| 1 | **TOTAL TIME*           |               |
 
 
 
+
+
+[myPage]: https://max-im.github.io/

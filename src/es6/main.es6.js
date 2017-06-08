@@ -1,17 +1,16 @@
-module.exports = function(React, ReactDOM) {
+module.exports = function(React, ReactDOM, Component) {
 	
 
-	const Component = React.createClass({
-		render: function () {
+	class Elem extends Component{
+		render(){
 			return (
 				<div>
 					<h1 className="header">Hello world</h1>
 					<p>lorem</p>
 				</div>
-
-			);
+			)
 		}
-	});
+	}
 
 
 
