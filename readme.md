@@ -27,27 +27,25 @@
 
 ## USED
 
-| Name                    | Img         |
-| ----------------------- | ------------- |
-|* NPM		 	| 	![npm][npm] 			|
-|* GULP		 	| 	![gulp][gulp] 			|
-|* HTML5	 	| 	![html][html] 			|
-|* BEM		 	| 	![bem][bem] 			|
-|* Bootstrap 	|	![bootstrap][bootstrap] |
-|* Canvas	 	|	![canvas][canvas] 		|
-|* SVG		 	|	![svg][svg] 			|
-|* CSS3		 	| 	![css][css] 			|
-|* SASS	(SCSS)	|  	![sass][sass] 			|
-|* ES6		 	|  	![es6][es6] 			|
-|* Babel		| 	![babel][babel] 		|
-|* Browserify	|	![browserify][browserify]|
-|* jQuery		| 	![jquery][jquery] 		|
-|* Lodash		| 	![lodash][lodash] 		|
-|* React		| 	![react][react] 		|
-|* Mustache		| 	![mustache][mustache] 	|
-|* phantom		| 	![phantom][phantom] 	|
-|* jasmine		| 	![jasmine][jasmine] 	|
-|* Wordpress	|	![wp][wp] 				|
+![npm][npm] 			
+![gulp][gulp] 			
+![html][html] 			
+![bem][bem] 			
+![bootstrap][bootstrap] 
+![canvas][canvas] 		
+![svg][svg] 			
+![css][css] 			
+![sass][sass] 			
+![es6][es6] 			
+![babel][babel] 		
+![browserify][browserify]
+![jquery][jquery] 		
+![lodash][lodash] 		
+![react][react] 		
+![mustache][mustache] 	
+![phantom][phantom] 	
+![jasmine][jasmine] 	
+![wp][wp] 				
 
 
 
@@ -66,6 +64,15 @@
 |    | **TOTAL TIME**          |               |
 
 
+
+
+
+## NOTES
+
+* [ ] note1
+* [ ] note2
+* [ ] note3
+* [ ] note4
 
 
 
