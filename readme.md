@@ -4,16 +4,16 @@
 
 ## STRUCTURE
 
---------------------------------------------------
+
 * src  - development;
 * dist - production;
+* tasks - gulp tasks;
 * assets - source files
 
 
 ## INFO
 
 
---------------------------------------------------
 
 | Name          | Value         | 
 | ------------- | -------------:| 
@@ -28,9 +28,8 @@
 ## USED
 
 
---------------------------------------------------
 
-* NPM !(npm)[src/img/_used/npm.png];
+* NPM !(npm)[./src/img/_used/npm.png];
 * GULP;
 * HTML5;
 * BEM;
@@ -41,20 +40,20 @@
 * jQuery;
 
 
+
+
 ## SCHEDULE
 
 
---------------------------------------------------
 
-
-| # | Name                    | Hours         | 
-|---| ----------------------- | -------------:| 
-| 1 | Deploy the environment  |               |
-| 1 | Header                  |               |
-| 1 | Main                    |               |
-| 1 | Footer                  |               |
-| 1 | Optimisation            |               |
-| 1 | **TOTAL TIME*           |               |
+| #   | Name                    | Hours         | 
+|---- | ----------------------- | -------------:| 
+| - 1 | Deploy the environment  |               |
+| - 2 | Header                  |               |
+| - 3 | Main                    |               |
+| - 4 | Footer                  |               |
+| - 5 | Optimisation            |               |
+|     | **TOTAL TIME**          |               |
 
 
 
