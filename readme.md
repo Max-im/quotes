@@ -27,27 +27,27 @@
 
 ## USED
 
+![npm][npm] 			
+![gulp][gulp] 			
+![html][html] 			
+![bem][bem] 			
+![bootstrap][bootstrap] 
+![canvas][canvas] 		
+![svg][svg] 			
+![css][css] 			
+![sass][sass] 			
+![es6][es6] 			
+![babel][babel] 		
+![browserify][browserify]
+![jquery][jquery] 		
+![lodash][lodash] 		
+![react][react] 		
+![mustache][mustache] 	
+![phantom][phantom] 	
+![jasmine][jasmine] 	
+![wp][wp] 				
 
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/npm.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/browserify.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/canvas.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/lodash.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/gulp.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/html.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/mustache.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/svg.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/wp.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/bem.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/css.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/sass.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/es6.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/react.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/jquery.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/phantom.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/phantom.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/jasmine.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/babel.png" width="50" height="50" margin="20">
-<img src="https://github.com/Max-im/startTemplate/blob/master/src/img/_used/bootstrap.png" width="50" height="50" margin="20">
+
 
 
 ## SCHEDULE
@@ -80,3 +80,22 @@
 
 
 
+[npm]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/npm.png
+[browserify]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/browserify.png
+[canvas]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/canvas.png
+[lodash]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/lodash.png
+[gulp]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/gulp.png
+[html]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/html.png
+[mustache]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/mustache.png
+[svg]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/svg.png
+[wp]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/wp.png
+[bem]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/bem.png
+[css]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/css.png
+[sass]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/sass.png
+[es6]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/es6.png
+[react]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/react.png
+[jquery]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/jquery.png
+[phantom]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/phantom.png
+[jasmine]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/jasmine.png
+[babel]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/babel.png
+[bootstrap]: https://github.com/Max-im/startTemplate/blob/master/src/img/_used/bootstrap.png
