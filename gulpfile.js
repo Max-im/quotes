@@ -73,7 +73,7 @@ lazyRequireTask('sprite:svg', './tasks/sprite:svg', { src: 'assets/sprite:svg/**
 // -----------------------------------------------------------------------
 // W A T C H
 // -----------------------------------------------------------------------
-gulp.task('watch', ['browser-sync', 'clean:svg', 'sprite:svg', 'sass', 'js' ], function() {
+gulp.task('watch', ['browser-sync', 'sprite:svg', 'sass', 'js' ], function() {
   gulp.watch('src/sass/**/*.scss', ['sass', browserSync.reload]);
   gulp.watch('src/*.html', browserSync.reload);
   gulp.watch('src/es6/**/*.js', ['js', browserSync.reload]);
