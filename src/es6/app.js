@@ -9,12 +9,10 @@ import ReactDOM from 'react-dom';
 
 
 // jQuery
-// const jQuery = require('jquery');
-// window.$ = window.jQuery = jQuery;
+const jQuery = require('jquery');
+window.$ = window.jQuery = jQuery;
 
 
-// owl-carousel
-// require('../../node_modules/owlcarousel/owl-carousel/owl.carousel.min.js');
 
 
 function App(){

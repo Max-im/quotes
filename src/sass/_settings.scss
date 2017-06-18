@@ -1,5 +1,8 @@
 /*@import variables and mixins*/
 
+@import '../../node_modules/owlcarousel/owl-carousel/owl.carousel.css';
+@import '../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css';
+
 /*colors*/
 $accent: #7fbd42;
 $myDark: #181b1f;
@@ -12,5 +15,20 @@ $myLight: #c0c6cc;
 	max-width: 1170px;
 	min-width: 320px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
+.flex{
+	display: flex;
+}
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.menuHide{
+	transform: translateX(100%) !important;
+	transition: all 1s;
+	transition-timing-function: ease-out;
+}

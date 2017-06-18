@@ -51,6 +51,36 @@
 
 /*1. HEADER*/
 /*==================================================*/
+.header{
+	.container{
+		padding: 50px;
+	}
+	&__h1{
+		font-size: 150px;
+		margin: 15% 0 0 0;
+	}
+	&__h2{
+		font-size: 38px;
+	}
+}
+.carousel .control-dots{
+	margin: 0 0 50px 0;
+	.dot{
+		width: 15px;
+		height: 15px;
+	}
+}
+.topLine{
+	&__logo{
+		padding: 20px 30px;
+		font-size: 30px;
+	}
+	&__menuBtn{
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		padding: 10px 0;
+	}
+}
 
 
 
@@ -83,6 +113,47 @@
 
 /*1. HEADER*/
 /*==================================================*/
+.header{
+	.container{
+		padding: 30px;
+	}
+	&__h1{
+		font-size: 100px;
+		margin: 12% 0 0 0;
+	}
+	&__h2{
+		font-size: 25px;
+	}
+	&__menuLink{
+		font-size: 30px;
+		margin: 20px;
+		letter-spacing: 2px;
+	}
+	&__menuClose{
+		top: 50px;
+		right: 50px;
+		font-size: 50px;
+	}
+}
+.carousel .control-dots{
+	margin: 0 0 30px 0;
+	.dot{
+		width: 10px;
+		height: 10px;
+	}
+}
+.topLine{
+	&__logo{
+		padding: 15px 20px;
+		font-size: 20px;
+	}
+	&__menuBtn{
+		border-top: 2px solid #fff;
+		border-bottom: 2px solid #fff;
+		padding: 10px 0;
+	}
+}
+
 
 
 
@@ -139,6 +210,38 @@
 
 /*1. HEADER*/
 /*==================================================*/
+.header{
+	.container{
+		padding: 20px;
+	}
+	&__h1{
+		font-size: 60px;
+		margin: 10% 0 0 0;
+	}
+	&__h2{
+		font-size: 20px;
+	}
+	
+
+}
+.carousel .control-dots{
+	margin: 0 0 20px 0;
+	.dot{
+		width: 10px;
+		height: 10px;
+	}
+}
+.topLine{
+	&__logo{
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+	&__menuBtn{
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		padding: 5px 0;
+	}
+}
 
 
 
