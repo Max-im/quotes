@@ -31,21 +31,21 @@
 ![gulp][gulp] 			
 ![html][html] 			
 ![bem][bem] 			
-![bootstrap][bootstrap] 
-![canvas][canvas] 		
+<!-- ![bootstrap][bootstrap]  -->
+<!-- ![canvas][canvas] 		 -->
 ![svg][svg] 			
 ![css][css] 			
 ![sass][sass] 			
 ![es6][es6] 			
 ![babel][babel] 		
 ![browserify][browserify]
-![jquery][jquery] 		
-![lodash][lodash] 		
+<!-- ![jquery][jquery] 		 -->
+<!-- ![lodash][lodash] 		 -->
 ![react][react] 		
-![mustache][mustache] 	
-![phantom][phantom] 	
-![jasmine][jasmine] 	
-![wp][wp] 				
+<!-- ![mustache][mustache] 	 -->
+<!-- ![phantom][phantom] 	 -->
+<!-- ![jasmine][jasmine] 	 -->
+<!-- ![wp][wp] 				 -->
 
 
 

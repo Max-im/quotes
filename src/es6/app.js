@@ -1,6 +1,6 @@
 // Components
 import Header from './components/header/header';
-import Main from './components/main/main.js';
+import Block2 from './components/block2/block2';
 
 
 // React
@@ -19,7 +19,7 @@ function App(){
 	return (
 		<div>
 			<Header />
-			<Main />
+			<Block2 />
 		</div>
 	);
 }

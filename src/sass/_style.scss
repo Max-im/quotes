@@ -23,13 +23,18 @@
 /*==================================================*/
 .header{
 	position: relative;
+	.wrap{
+		width: 100%;
+		box-sizing: border-box;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 	.container{
 		padding: 50px;
 	}
 	&__slider{
-		position: absolute;
-		top: 0;
-		left: 0;
+		position: relative;
 		z-index: 0;
 	}
 	&__mainHeader{
@@ -111,7 +116,7 @@
 	@extend .flex;
 	justify-content: space-between;
 	align-items: baseline;
-	position: relative;
+	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 	&__logo{
 		display: block;

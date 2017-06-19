@@ -12,7 +12,7 @@ class Slider extends React.Component{
 	render(){
 
 		return (
-			<Carousel className="header__slider" axis="horizontal" showThumbs={false} showArrows={true} dynamicHeight emulateTouch>
+			<Carousel className="header__slider" axis="horizontal" showThumbs={false} showArrows={true} showStatus={false} dynamicHeight emulateTouch>
 	            {this.props.data.map((item, i) => {
 					return(
 						<div key={i}>

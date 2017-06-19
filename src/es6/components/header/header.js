@@ -38,9 +38,11 @@ class Header extends React.Component{
 		return (
 			<header className="header">
 				<Slider data={this.state.carousel}/>
+				<div className="wrap">	
 				<div className="container">	
 					<TopLine onShowMenu={this.onShowMenu} />
 					<HeaderH1 />
+				</div>
 				</div>
 				<Menu data={this.state.menuProp} onMenuChoise={this.onMenuChoise} onCloseMenu={this.onCloseMenu} />
 			</header>
