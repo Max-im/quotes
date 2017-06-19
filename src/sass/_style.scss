@@ -106,12 +106,12 @@
 			font-size: 12px;
 		}
 	}
-}
-.carousel .control-dots{
-	margin: 0 0 50px 0;
-	.dot{
-		width: 15px;
-		height: 15px;
+	.carousel .control-dots{
+		margin: 0 0 50px 0;
+		.dot{
+			width: 15px;
+			height: 15px;
+		}
 	}
 }
 .topLine{
@@ -187,6 +187,89 @@
 		@extend .block2__middleParag;
 	}
 }
+
+
+
+
+
+
+// block3
+// ===================================================
+
+.block3{
+	background: #ffe9e2;
+	&__wrap{
+		@extend .flex;
+		overflow: hidden;
+	}
+	&__left{
+		transition: all 1.4s;
+		padding: 30px;
+		box-sizing: border-box;
+		transform: translateX(-100%) rotate(45deg);
+	}
+	&__right{
+		transition: all 1.4s;
+		display: flex;
+		transform: translateX(100%) rotate(-45deg);
+	}
+	&__item{
+		width: 50%;
+		box-sizing: border-box;
+		&_active{
+			transition: all 1.4s;
+			transform: translateX(0%) rotate(0deg);
+		}
+	}
+	&__slider{
+		height: 100%;
+	}
+	&__author{
+		text-align: left;
+		font-style: italic;
+		text-transform: capitalize;
+		font-weight: 100;
+		margin: 50px 0;
+	}
+	&__img{
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
+	.slide{
+		background: none;
+		font-size: 36px;
+		font-weight: 800;
+		line-height: 40px;
+	}
+	.carousel-slider{
+		display: flex;
+		height: 100%;
+	}
+	.carousel .control-dots{
+		margin: 50px 0 0 0;
+		.dot{
+			width: 10px;
+			height: 10px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
