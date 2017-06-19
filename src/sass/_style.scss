@@ -8,7 +8,9 @@
 ======================================================
 
 1. HEADER
+	topLine
 2. MAIN
+	block2
 3. FOOTER
 
 ==================================================*/
@@ -142,6 +144,49 @@
 
 /*2. MAIN*/
 /*==================================================*/
+
+
+
+// block2
+// ===================================================
+.block2{
+	&__wrap{
+		text-align: center;
+		padding: 90px;
+	}
+	&__header{
+		font-weight: 100;
+		font-size: 60px;
+		margin: 0 0 30px 0;
+		&_bold{
+			font-size: 60px;
+			font-weight: 800;
+		}
+	}
+	&__firstParag{
+		font-size: 20px;
+		margin: 50px 0;
+		line-height: 30px;
+		font-weight: 600;
+		&:after{
+			content: '';
+			display: block;
+			width: 100px;
+			height: 1px;
+			background: #000;
+			margin: 50px auto 50px auto;
+		}
+	}
+	&__middleParag{
+		font-size: 20px;
+		margin: 0 0 50px 0;
+		line-height: 30px;
+		font-weight: 400;
+	}
+	&__lastParag{
+		@extend .block2__middleParag;
+	}
+}
 
 
 

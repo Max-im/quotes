@@ -19,7 +19,9 @@ function App(){
 	return (
 		<div>
 			<Header />
+			<main>
 			<Block2 />
+			</main>
 		</div>
 	);
 }
