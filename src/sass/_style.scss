@@ -353,6 +353,37 @@
 
 
 
+// block5
+// ===================================================
+.block5{
+	background: url('../img/block5/bg.jpg' );
+	background-size: cover;	
+	&__wrap{
+		display: flex;
+		padding: 30% 10%;
+		text-align: center;
+	}
+	&__content{
+		margin: auto;
+	}
+	&__blockquote{
+		font-size: 60px;
+		color: #fff;
+		line-height: 80px;
+		font-family: Arial;
+		margin: 0 0 100px 0;
+	}
+	&__txt{
+		color: #fff;
+		font-size: 20px;
+		font-family: arial;
+	}
+	&__author{
+		text-decoration: underline;
+		display: inline;
+		text-transform: capitalize;
+	}
+}
 
 
 
