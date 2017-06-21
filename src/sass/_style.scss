@@ -145,7 +145,28 @@
 /*2. MAIN*/
 /*==================================================*/
 
-
+.block{
+	&__btn{
+		display: block;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 800;
+		border: 1px solid #000;
+		border-radius: 5px;
+		color: #000;
+		font-size: 20px;
+		word-spacing: 5px;
+		padding: 24px 35px;
+		margin: 60px auto;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		transition: all .4s;	
+		&:hover{
+			background: #333;
+			color: #fff;
+			transition: all .4s;
+		}
+	}
+}
 
 // block2
 // ===================================================
@@ -259,6 +280,75 @@
 
 
 
+// block4
+// ===================================================
+
+.block4{
+	padding: 100px 50px;
+	box-sizing: border-box;
+	&__header{
+		font-size: 60px;
+		font-weight: 800;
+		&:after{
+			content: '';
+			display: block;
+			width: 100px;
+			height: 1px;
+			background: #000;
+			margin: 30px 0 50px 0;
+		}
+	}
+	&__wrap{
+		overflow: hidden;
+	}
+	&__items{
+		margin: 50px 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__item{
+		width: 50%;
+		padding: 50px;
+		box-sizing: border-box;
+		border: 1px solid #eae9e7;
+		transition: all 1.4s;
+		&_left{
+			transition: all 1.4s;
+			transform: translateX(-100%) rotate(45deg);
+		}
+		&_right{
+			transition: all 1.4s;
+			transform: translateX(100%) rotate(-45deg);
+		}
+		&_active{
+			transition: all 1.4s;
+			transform: translateX(0%) rotate(0deg);
+		}
+		&_addition{
+			display:none;
+			transform: scale(0);
+			opacity: 0;
+			transition: all 1.4s;
+		}
+	}
+	&__itemHeader{
+		font-size: 30px;
+		text-transform: uppercase;
+		font-weight: 800;
+		margin: 0 0 40px 0;
+	}
+	&__itemText{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	&__author{
+		margin: 40px 0 0 0;	
+		font-size: 20px;
+		font-style: italic;
+		text-transform: capitalize;
+	}
+
+}
 
 
 

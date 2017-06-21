@@ -17,9 +17,9 @@
 
 | Name          | Value         | 
 | ------------- | -------------:| 
-| Project name  |               |
-| Description   |               |
-| Version       | 1.0.0         |
+| Project name  |  Quotes       |
+| Description   |  first react project |
+| Version       | 2.0.0         |
 | Author        | [Pozhidaev Maxim][myPage] |
 
 
@@ -56,9 +56,9 @@
 
 | #  | Name                    | Hours         | 
 |--- | ----------------------- | -------------:| 
-|  1 | Deploy the environment  |               |
-|  2 | Header                  |               |
-|  3 | Main                    |               |
+|  1 | Deploy the environment  |      2        |
+|  2 | Header                  |      4        |
+|  3 | Main                    |      7        |
 |  4 | Footer                  |               |
 |  5 | Optimisation            |               |
 |    | **TOTAL TIME**          |               |
@@ -69,10 +69,13 @@
 
 ## NOTES
 
-* [ ] note1
-* [ ] note2
-* [ ] note3
-* [ ] note4
+* [ x ] header
+* [ x ] block2
+* [ x ] block3
+* [  ] block4
+* [  ] block5
+* [  ] block6
+* [  ] footer
 
 
 

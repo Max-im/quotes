@@ -2,6 +2,7 @@
 import Header from './components/header/header';
 import Block2 from './components/block2/block2';
 import Block3 from './components/block3/block3';
+import Block4 from './components/block4/block4';
 
 
 // React
@@ -23,6 +24,7 @@ function App(){
 			<main>
 				<Block2 />
 				<Block3 />
+				<Block4 />
 			</main>
 		</div>
 	);
