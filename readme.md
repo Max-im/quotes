@@ -58,7 +58,7 @@
 |--- | ----------------------- | -------------:| 
 |  1 | Deploy the environment  |      2        |
 |  2 | Header                  |      4        |
-|  3 | Main                    |      7        |
+|  3 | Main                    |      10        |
 |  4 | Footer                  |               |
 |  5 | Optimisation            |               |
 |    | **TOTAL TIME**          |               |
@@ -72,8 +72,8 @@
 * [ x ] header
 * [ x ] block2
 * [ x ] block3
-* [  ] block4
-* [  ] block5
+* [ x ] block4
+* [ x ] block5
 * [  ] block6
 * [  ] footer
 

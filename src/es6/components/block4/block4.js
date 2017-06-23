@@ -81,9 +81,9 @@ class Block4 extends React.Component{
 		<div className="block4">
 			<div className="container">
 				<div className="block4__wrap">
-					<h2 className="block4__header">
+					<h3 className="block4__header">
 						Reasons to be happy
-					</h2>
+					</h3>
 					<Reasons data={this.state.data} onClickHandler={this.onClickHandler}/>
 					
 				</div>

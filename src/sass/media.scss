@@ -180,9 +180,6 @@
 
 
 
-
-
-
 /*3. FOOTER*/
 /*==================================================*/
 
@@ -367,6 +364,95 @@
 		font-size: 18px;
 	}
 }
+
+
+
+
+// block6
+// ===================================================
+.block6{
+	padding: 100px 0;
+	&__item{
+		margin: 5px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+		&:hover{
+			box-shadow: 0 0 30px rgba(0,0,0,.42);
+		}
+	}
+	&__poster1Item{
+		width: 240px;	
+	}
+	&__poster2Item{
+		width: 340px;
+	}
+	&__poster3Item{
+		width: 200px;
+	}
+	&__poster4Item{
+		width: 200px;
+	}
+	&__poster1Blockquote{
+		font-size: 40px;
+	    word-spacing: 100px;
+	    line-height: 50px;
+	    margin: 30% 0 0 0;
+	}
+	&__poster2{
+		&Blockquote{
+			font-size: 20px;
+			line-height: 30px;
+	    	margin: 20px 52% 0 20px;
+		}
+		&Author{
+			font-size: 16px;
+			margin: 20px 0 0 0;
+		}
+	}
+	&__poster3Blockquote{
+		font-size: 16px;
+		margin: 20px;
+		line-height: 25px;
+		word-spacing: 10px;
+	}
+	&__poster4Blockquote{
+		font-size: 20px;
+		margin: 50% 20px 0 20px;
+		line-height: 30px;
+		word-spacing: 10px;
+	}
+
+	&__links{
+		padding: 5px;
+	}
+	&__link{
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -556,6 +642,72 @@
 	}
 	&__txt{
 		font-size: 16px;
+	}
+}
+
+
+
+// block6
+// ===================================================
+.block6{
+	padding: 100px 0;
+	&__item{
+		margin: 5px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+		&:hover{
+			box-shadow: 0 0 30px rgba(0,0,0,.42);
+		}
+	}
+	&__poster1Item{
+		width: 200px;	
+	}
+	&__poster2Item{
+		width: 300px;
+	}
+	&__poster3Item{
+		width: 160px;
+	}
+	&__poster4Item{
+		width: 160px;
+	}
+	&__poster1Blockquote{
+		font-size: 40px;
+	    word-spacing: 100px;
+	    line-height: 50px;
+	    margin: 30% 0 0 0;
+	}
+	&__poster2{
+		&Blockquote{
+			font-size: 20px;
+			line-height: 30px;
+	    	margin: 20px 52% 0 20px;
+		}
+		&Author{
+			font-size: 16px;
+			margin: 5px 0 0 0;
+		}
+	}
+	&__poster3Blockquote{
+		font-size: 16px;
+		margin: 10px;
+		line-height: 20px;
+		word-spacing: 10px;
+	}
+	&__poster4Blockquote{
+		font-size: 20px;
+		margin: 50% 20px 0 20px;
+		line-height: 30px;
+		word-spacing: 10px;
+	}
+
+	&__links{
+		padding: 5px;
+	}
+	&__link{
+		font-size: 14px;
 	}
 }
 

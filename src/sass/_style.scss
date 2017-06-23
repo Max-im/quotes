@@ -146,8 +146,9 @@
 /*==================================================*/
 
 .block{
+
 	&__btn{
-		display: block;
+		display: inline-block;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 800;
 		border: 1px solid #000;
@@ -165,6 +166,9 @@
 			color: #fff;
 			transition: all .4s;
 		}
+	}
+	&__btnWrap{
+		text-align: center;
 	}
 }
 
@@ -314,15 +318,18 @@
 		transition: all 1.4s;
 		&_left{
 			transition: all 1.4s;
-			transform: translateX(-100%) rotate(45deg);
+			transform: scale(0);
+			opacity: 0;
 		}
 		&_right{
 			transition: all 1.4s;
-			transform: translateX(100%) rotate(-45deg);
+			transform: scale(0);
+			opacity: 0;
 		}
 		&_active{
 			transition: all 1.4s;
-			transform: translateX(0%) rotate(0deg);
+			transform: scale(1);
+			opacity: 1;
 		}
 		&_addition{
 			display:none;
@@ -376,9 +383,13 @@
 	&__txt{
 		color: #fff;
 		font-size: 20px;
+		display: inline;
 		font-family: arial;
 	}
 	&__author{
+		color: #fff;
+		font-size: 20px;
+		font-family: arial;
 		text-decoration: underline;
 		display: inline;
 		text-transform: capitalize;
@@ -389,6 +400,123 @@
 
 
 
+// block6
+// ===================================================
+.block6{
+	padding: 100px 0;
+	background: #f2f4f5;
+	&__header{
+		@extend .block4__header;
+	}
+	&__item{
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+		margin: 25px 10px;
+		img{
+			width: 100%;
+			height: auto;
+		}
+		&:hover{
+			box-shadow: 0 0 100px rgba(0,0,0,.42);
+			.block6__links{
+				transform: translateY(0);
+				transition: all .7s;
+			}
+		}
+	}
+	&__poster1Item{
+		width: 560px;	
+	}
+	&__poster2Item{
+		width: 740px;
+	}
+	&__poster3Item{
+		width: 330px;
+	}
+	&__poster4Item{
+		width: 330px;
+	}
+	&__poster1Blockquote{
+		color: #fff;
+		font-size: 80px;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    word-spacing: 300px;
+	    font-weight: bold;
+	    line-height: 100px;
+	    margin: 30% 0 0 0;
+	}
+	&__poster2{
+		&Blockquote{
+			color: #000;
+			font-size: 36px;
+			text-align: left;
+			line-height: 50px;
+	    	font-family: 'Lobster', sans-serif;
+	    	margin: 50px 52% 0 50px;
+		}
+		&Author{
+			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
+			text-align: left;
+			margin: 20px 0 0 0;
+		}
+	}
+	&__poster3Blockquote{
+		color: #000;
+		text-align: center;
+		font-family: 'Bevan';
+		font-size: 20px;
+		margin: 50px;
+		line-height: 30px;
+		word-spacing: 10px;
+		text-transform: uppercase;
+	}
+	&__poster4Blockquote{
+		color: #fff;
+		text-align: center;
+		font-family: 'Lato';
+		font-size: 30px;
+		margin: 50% 50px 0 50px;
+		line-height: 40px;
+		word-spacing: 10px;
+		text-transform: uppercase;
+	}
+
+	&__blockquote{
+		position: absolute;
+		top: 0;
+		z-index: 1;
+	}
+
+	&__links{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		transition: all .7s;
+		bottom: 0;
+		padding: 20px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		transform: translateY(100%);
+		z-index: 100;
+	}
+	&__link{
+		color: #fff;
+		font-size: 20px;
+		font-weight: bold;
+		text-shadow: 1px 1px 1px #000;
+		&:hover{
+			color: #000;
+			text-shadow: -1px -1px 1px #fff;
+		}
+
+	}
+	&__btnWrap{
+		width: 100%;
+	}
+}
 
 
 

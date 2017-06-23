@@ -4,6 +4,7 @@ import Block2 from './components/block2/block2';
 import Block3 from './components/block3/block3';
 import Block4 from './components/block4/block4';
 import Block5 from './components/block5/block5';
+import Block6 from './components/block6/block6';
 
 
 // React
@@ -27,6 +28,7 @@ function App(){
 				<Block3 />
 				<Block4 />
 				<Block5 />
+				<Block6 />
 			</main>
 		</div>
 	);

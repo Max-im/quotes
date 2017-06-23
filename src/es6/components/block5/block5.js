@@ -12,9 +12,8 @@ const Block5 = () => {
 						<blockquote className="block5__blockquote">
 							I love you for all that you are, all that you have been, and all that you are yet to be.
 						</blockquote>
-						<p className="block5__txt">
-							Quote the day from <address className="block5__author">name</address>
-						</p>
+						<p className="block5__txt">Quote the day from </p>
+						<address className="block5__author">name</address>
 					</div>
 				</div>
 			</div>
