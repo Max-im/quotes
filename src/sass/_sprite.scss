@@ -1,5 +1,5 @@
 %svg-common {
-	background: url("../img/svg/sprite-fa4ebf59.svg") no-repeat;
+	background: url("../img/svg/sprite-985ea1ab.svg") no-repeat;
 }
 
 .svg__close {
@@ -7,5 +7,61 @@
 	background-position: 0 0;
 	width: 53.333px;
 	height: 53.333px;
+}
+
+.svg__facebook {
+	@extend %svg-common;
+	background-position: 0 19.424460431654676%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__google-plus {
+	@extend %svg-common;
+	background-position: 0 30.93525179856115%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__instagram {
+	@extend %svg-common;
+	background-position: 0 42.44604316546763%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__linkedin {
+	@extend %svg-common;
+	background-position: 0 53.9568345323741%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__mail {
+	@extend %svg-common;
+	background-position: 0 65.46762589928058%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__pinterest {
+	@extend %svg-common;
+	background-position: 0 76.97841726618705%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__twitter {
+	@extend %svg-common;
+	background-position: 0 88.48920863309353%;
+	width: 32px;
+	height: 32px;
+}
+
+.svg__youtube {
+	@extend %svg-common;
+	background-position: 0 100%;
+	width: 32px;
+	height: 32px;
 }
 

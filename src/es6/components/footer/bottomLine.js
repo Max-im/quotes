@@ -11,7 +11,7 @@ const BottomLine = (props) => {
 						{props.data.map( (item, i) => {
 							return(
 								<li key={i}>
-									<a href="#" className={`footer__socItem footer__${item}`}>{item}</a>						
+									<a href="#" className={`footer__socItem ${item}`}></a>						
 								</li>						
 							)
 						})}

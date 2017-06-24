@@ -31,17 +31,17 @@
 ![gulp][gulp] 			
 ![html][html] 			
 ![bem][bem] 			
+![svg][svg]             
+![css][css]             
+![sass][sass]           
+![es6][es6]             
+![babel][babel]         
+![browserify][browserify]
+![react][react]         
 <!-- ![bootstrap][bootstrap]  -->
 <!-- ![canvas][canvas] 		 -->
-![svg][svg] 			
-![css][css] 			
-![sass][sass] 			
-![es6][es6] 			
-![babel][babel] 		
-![browserify][browserify]
-<!-- ![jquery][jquery] 		 -->
-<!-- ![lodash][lodash] 		 -->
-![react][react] 		
+<!-- ![jquery][jquery]       -->
+<!-- ![lodash][lodash]       -->
 <!-- ![mustache][mustache] 	 -->
 <!-- ![phantom][phantom] 	 -->
 <!-- ![jasmine][jasmine] 	 -->
@@ -58,10 +58,10 @@
 |--- | ----------------------- | -------------:| 
 |  1 | Deploy the environment  |      2        |
 |  2 | Header                  |      4        |
-|  3 | Main                    |      10        |
-|  4 | Footer                  |               |
-|  5 | Optimisation            |               |
-|    | **TOTAL TIME**          |               |
+|  3 | Main                    |      14        |
+|  4 | Footer                  |      3       |
+|  5 | Optimisation            |       2       |
+|    | **TOTAL TIME**          |      25         |
 
 
 
@@ -74,8 +74,8 @@
 * [ x ] block3
 * [ x ] block4
 * [ x ] block5
-* [  ] block6
-* [  ] footer
+* [ x ] block6
+* [ x ] footer
 
 
 

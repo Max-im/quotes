@@ -14,7 +14,7 @@ const Menu = ( props) => {
 						</li>
 					)
 				})}
-				<span onClick={props.onCloseMenu} className="header__menuClose">x</span>
+				<span onClick={props.onCloseMenu} className="header__menuClose"></span>
 			</ul>
 		</nav>
 	);

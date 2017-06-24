@@ -40,7 +40,16 @@ class Footer extends React.Component{
 					]
 				}
 			],
-			social: [ "a", "a", "a", "a", "a", "a", "a", "a" ]
+			social: [ 
+				"svg__facebook",
+			 	"svg__google-plus",
+			 	 "svg__instagram", 
+			 	 "svg__linkedin", 
+			 	 "svg__mail", 
+			 	 "svg__pinterest", 
+			 	 "svg__twitter", 
+			 	 "svg__youtube" 
+			]
 		}
 	}
 	render(){

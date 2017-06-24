@@ -11,6 +11,10 @@
 	topLine
 2. MAIN
 	block2
+	block3
+	block4
+	block5
+	block6
 3. FOOTER
 
 ==================================================*/
@@ -89,21 +93,19 @@
 		position: absolute;
 		top: 50px;
 		right: 50px;
-		font-size: 50px;
-		color: #626262;
 		cursor: pointer;
+		opacity: .5;
+		@extend .svg__close;
 		&:hover{
-			color: #fff;
-			&:after{
-				color: #fff;
-			}
+			opacity: 1;
 		}
 		&:after{
 			content: 'close';
 			position: absolute;
+			color: #fff;
 			top: 100%;
 			left: 0;
-			font-size: 12px;
+			font-size: 20px;
 		}
 	}
 	.carousel .control-dots{
@@ -580,19 +582,25 @@
 	&__bottomLineWrap{
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+
 	}
 	&__copyright{
 		font-family: 'Montserrat', sans-serif;
 		font-size: 16px;
 		letter-spacing: 2.5px;
+		// align-self: center;
+
 	}
 	&__socList{
 		display: flex;
 	}
 	&__socItem{
 		display: block;
-		padding: 5px;
 		margin: 0 10px;
+		transform: scale(.7);
+		opacity: .7;
+		line-height: 10px;
 	}
 }
 
