@@ -5,6 +5,7 @@ import Block3 from './components/block3/block3';
 import Block4 from './components/block4/block4';
 import Block5 from './components/block5/block5';
 import Block6 from './components/block6/block6';
+import Footer from './components/footer/footer';
 
 
 // React
@@ -30,6 +31,7 @@ function App(){
 				<Block5 />
 				<Block6 />
 			</main>
+			<Footer />
 		</div>
 	);
 }

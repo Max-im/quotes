@@ -38,15 +38,9 @@ class Block6 extends React.Component {
 	componentDidMount(){
 		const grid = document.querySelector('.block6__posters');
 		const msnry = new Masonry( grid, {
-		  // options...
 		  itemSelector: '.block6__item',
 		  columnWidth: 100
 		});
-
-		// init with selector
-		// var msnry = new Masonry( '.grid', {
-		//   // options...
-		// });
 	}
 	render(){
 		return(
