@@ -64,7 +64,7 @@
 	}
 }
 .carousel .control-dots{
-	margin: 0 0 50px 0;
+	margin: 0 0 20px 0;
 	.dot{
 		width: 15px;
 		height: 15px;
@@ -237,8 +237,8 @@
 	}
 	&__socItem{
 		display: block;
-		padding: 5px;
-		margin: 0 10px;
+		padding: 0px;
+		margin: 0 5px;
 	}
 }
 
@@ -289,7 +289,7 @@
 	}
 }
 .carousel .control-dots{
-	margin: 0 0 30px 0;
+	margin: 0 0 10px 0;
 	.dot{
 		width: 10px;
 		height: 10px;
@@ -549,9 +549,9 @@
 		order: 1;
 	}
 	&__socItem{
+		padding: 0;
 		display: block;
-		padding: 5px;
-		margin: 0 10px;
+		margin: 0 2px;
 	}
 }
 
@@ -597,14 +597,14 @@
 		font-size: 20px;
 	}
 	
+	.carousel .control-dots{
+		margin: 0 0 10px 0;
+		.dot{
+			width: 10px;
+			height: 10px;
+		}
 
 }
-.carousel .control-dots{
-	margin: 0 0 20px 0;
-	.dot{
-		width: 10px;
-		height: 10px;
-	}
 }
 .topLine{
 	&__logo{

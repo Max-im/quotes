@@ -37,12 +37,12 @@ class Block6 extends React.Component {
 	}
 	componentDidMount(){
 		setTimeout(()=>{
-			const grid = document.querySelector('.block6__posters');
+			const grid = document.querySelector('div .block6__posters');
 			const msnry = new Masonry( grid, {
-			  itemSelector: '.block6__item',
+			  itemSelector: 'div .block6__item',
 			  columnWidth: 100
 			});
-		}, 50)
+		}, 500)
 	}
 	render(){
 		return(
