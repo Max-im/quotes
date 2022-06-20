@@ -11,20 +11,6 @@
 * assets - source files
 
 
-## INFO
-
-
-
-| Name          | Value         | 
-| ------------- | -------------:| 
-| Project name  |  Quotes       |
-| Description   |  first react project |
-| Version       | 2.0.0         |
-| Author        | [Pozhidaev Maxim][myPage] |
-
-
-
-
 ## USED
 
 ![npm][npm] 			
@@ -38,14 +24,7 @@
 ![babel][babel]         
 ![browserify][browserify]
 ![react][react]         
-<!-- ![bootstrap][bootstrap]  -->
-<!-- ![canvas][canvas] 		 -->
-<!-- ![jquery][jquery]       -->
-<!-- ![lodash][lodash]       -->
-<!-- ![mustache][mustache] 	 -->
-<!-- ![phantom][phantom] 	 -->
-<!-- ![jasmine][jasmine] 	 -->
-<!-- ![wp][wp] 				 -->
+
 
 
 
@@ -65,17 +44,6 @@
 
 
 
-
-
-## NOTES
-
-* [ x ] header
-* [ x ] block2
-* [ x ] block3
-* [ x ] block4
-* [ x ] block5
-* [ x ] block6
-* [ x ] footer
 
 
 
